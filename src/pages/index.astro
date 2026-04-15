@@ -1,17 +1,10 @@
 ---
-
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Dmitrii Shilov — Software Developer">
+  <main style="max-width: 800px; margin: 0 auto; padding: 80px 24px; text-align: center;">
+    <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 8px;">Dmitrii Shilov</h1>
+    <p style="font-size: 1.1rem; color: #666; margin-bottom: 32px;">Software Developer</p>
+    <p style="color: #999;">Coming soon — CV & Portfolio</p>
+  </main>
+</BaseLayout>
