@@ -7,11 +7,25 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.1.7"
+    "@alpinejs/collapse": "^3.15.11",
+    "@astrojs/check": "^0.9.8",
+    "alpinejs": "^3.15.11",
+    "astro": "^6.1.7",
+    "astro-font-picker": "^0.2.2",
+    "hotkeypad": "^1.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/alpinejs": "^3.13.11",
+    "playwright": "^1.59.1",
+    "prettier": "^3.8.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.2.2"
   }
 }
