@@ -1,0 +1,35 @@
+﻿---
+interface Job { company: string; role: string; period: string; location?: string; bullets: string[] }
+interface Props { jobs: Job[] }
+const { jobs } = Astro.props;
+---
+<section class="cv-section">
+  <h2 class="cv-section-title">Experience</h2>
+  {jobs.map((j) => (
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <span class="job-role">{j.role}</span>
+          <span class="job-company"> — {j.company}</span>
+        </div>
+        <span class="job-period">{j.period}</span>
+      </div>
+      {j.location && <div class="job-location">{j.location}</div>}
+      <ul class="job-bullets">
+        {j.bullets.map((b) => <li>{b}</li>)}
+      </ul>
+    </div>
+  ))}
+</section>
+<style>
+  .cv-section { margin-bottom: 16px; }
+  .cv-section-title { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: #2563eb; border-bottom: 1px solid #e5e7eb; padding-bottom: 4px; margin-bottom: 8px; font-weight: 600; }
+  .job { margin-bottom: 12px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px; }
+  .job-role { font-weight: 600; font-size: 0.88rem; color: #1a1a1a; }
+  .job-company { font-size: 0.85rem; color: #555; }
+  .job-period { font-size: 0.78rem; color: #888; white-space: nowrap; }
+  .job-location { font-size: 0.78rem; color: #888; margin-top: 1px; }
+  .job-bullets { margin: 4px 0 0 18px; font-size: 0.82rem; color: #333; line-height: 1.5; }
+  .job-bullets li { margin-bottom: 2px; }
+</style>

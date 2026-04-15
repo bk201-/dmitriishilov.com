@@ -1,0 +1,53 @@
+﻿---
+import BaseLayout from './BaseLayout.astro';
+interface Props {
+  title: string;
+  lang?: string;
+}
+const { title, lang = 'en' } = Astro.props;
+---
+<BaseLayout title={title} lang={lang}>
+  <div class="cv-page">
+    <div class="cv-main">
+      <slot name="header" />
+      <div class="cv-grid">
+        <aside class="cv-sidebar">
+          <slot name="sidebar" />
+        </aside>
+        <div class="cv-content">
+          <slot name="content" />
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+<style>
+  .cv-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 20px;
+  }
+  .cv-main {
+    width: 100%;
+  }
+  .cv-grid {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+  }
+  .cv-sidebar {
+    min-width: 0;
+  }
+  .cv-content {
+    min-width: 0;
+  }
+  @media (max-width: 768px) {
+    .cv-page {
+      padding: 16px 12px;
+    }
+    .cv-grid {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+</style>
