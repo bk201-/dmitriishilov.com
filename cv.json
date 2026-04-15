@@ -1,364 +1,188 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "Dmitrii Shilov",
+    "label": "Software Developer Engineer",
     "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "email": "sceletron@gmail.com",
+    "phone": "",
+    "url": "https://dmitriishilov.com",
+    "summary": "Senior Software Engineer and Tech Lead with over 17 years of experience in JavaScript/TypeScript full-stack development. Built and shipped products at Microsoft, EPAM, and Akvelon — from VS Code extensions and Azure blockchain tools to performance optimization across 30+ enterprise web apps. Comfortable leading teams of 6+ engineers, designing architecture from scratch, and owning the full delivery pipeline from CI/CD to production monitoring.",
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "postalCode": "",
+      "city": "Prague",
+      "countryCode": "CZ",
+      "region": "Czechia"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "dmitry-shilov-prague",
+        "url": "https://linkedin.com/in/dmitry-shilov-prague"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "bk201-",
+        "url": "https://github.com/bk201-"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
+      "name": "Microsoft",
+      "position": "Software Developer Engineer",
       "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
+      "location": "Prague, Czechia",
+      "url": "https://microsoft.com",
+      "startDate": "2024-07-01",
       "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
-      "highlights": [
-        "Improved website performance by optimizing code"
-      ],
-      "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
-      ],
-      "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
-      ],
-      "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
+      "summary": "",
+      "highlights": [],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": ["TypeScript", "React", "Azure"]
     },
     {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
+      "name": "EPAM Systems",
+      "position": "Lead Software Engineer",
+      "location_type": "On site",
+      "location": "Prague, Czechia",
+      "url": "https://epam.com",
+      "startDate": "2023-08-01",
+      "endDate": "2024-06-01",
+      "summary": "Customer: Albert Heijn. Full-stack developer on Engineering Enablement project.",
       "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
+        "Evolved internal plugins for Backstage (Spotify) developer portal",
+        "Designed and implemented internal tools to integrate with third-party cloud solutions",
+        "Led refactoring initiatives across the platform"
       ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
+      "responsibilities": [],
+      "achievements": [],
+      "skills": ["Backstage", "Node.js", "React", "Nest.js", "Python", "Atlassian"]
     },
     {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
+      "name": "EPAM Systems",
+      "position": "Senior Software Engineer",
+      "location_type": "On site",
+      "location": "Prague, Czechia",
+      "url": "https://epam.com",
+      "startDate": "2022-01-01",
+      "endDate": "2023-07-01",
+      "summary": "Customer: London Stock Exchange Group. Performance optimization across enterprise web applications.",
       "highlights": [
-        "Completed several client projects successfully"
+        "Conducted performance analysis and applied optimization techniques on 30+ web applications",
+        "Added heap snapshot capability to the QA framework",
+        "Coordinated cross-team task execution for performance improvements"
       ],
-      "skills": [
-        "HTML",
-        "CSS"
-      ]
-    }
-  ],
-  "volunteer": [
+      "responsibilities": [],
+      "achievements": [],
+      "skills": ["Angular", "Angular.js", "jQuery", "DevTools", "Performance"]
+    },
     {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
+      "name": "Akvelon, Inc.",
+      "position": "Senior Software Engineer / Tech Lead",
+      "location_type": "On site",
+      "location": "Yaroslavl, Russia → Prague, Czechia",
+      "url": "https://akvelon.com",
+      "startDate": "2017-05-01",
+      "endDate": "2021-10-01",
+      "summary": "Outsourced to Microsoft across multiple projects. Led teams of 6 engineers on greenfield projects.",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+        "Built Azure Blockchain Extension for VS Code from scratch — architecture, MVP, CI/CD, cross-platform support",
+        "Designed Node.js tool deploying k8s infrastructure for Hyperledger private blockchain",
+        "Built CHIE suite: OKR Tool, QaaS (KPI tracking), Cloud Readiness Criteria — Angular/Ionic/.NET Core/Azure",
+        "Created TypeScript decorator library implementing Retry, Circuit-breaker, Memo, Singleton, FSM patterns",
+        "Contributed to Hyperledger Fabric SDK",
+        "Implemented 40+ BI reports (MSSQL/SSRS) for Valant customers"
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": ["TypeScript", "Node.js", "React", "Angular", "Ionic", ".NET Core", "Azure", "k8s", "VS Code API"]
+    },
+    {
+      "name": "Tensor (Тензор)",
+      "position": "Software Engineer → Team Lead",
+      "location_type": "On site",
+      "location": "Yaroslavl, Russia",
+      "url": "",
+      "startDate": "2008-02-01",
+      "endDate": "2017-04-01",
+      "summary": "9 years building a large-scale enterprise web platform — from junior engineer to team lead.",
+      "highlights": [
+        "Designed and implemented SSR, i18n/l10n, and HTML generator from custom XAML-like modules",
+        "Built a resource bundler (like Webpack) with tree shaking using Node.js, Grunt, Gulp, ESprima",
+        "Refactored monolith into 200+ micro-frontend modules with RequireJS",
+        "Designed and implemented BFF service with Node.js, Redis, Express, Cluster",
+        "Built client-side desktop app with WebSocket communication, file system access, and cryptography (Java applets, C#, ActiveX)"
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": ["JavaScript", "Node.js", "Redis", "Express", "C#", "Java", "PostgreSQL", "RequireJS"]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
-    },
-    {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
-    },
-    {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
-      ]
+      "institution": "Yaroslavl Demidov State University",
+      "url": "",
+      "area": "Mathematics and Computer Science",
+      "studyType": "Specialist",
+      "startDate": "2004-09-01",
+      "endDate": "2009-06-01",
+      "score": "",
+      "courses": []
     }
   ],
-  "certificates": [
-    {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
-    }
-  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
-    {
-      "name": "Figma",
-      "level": "Expert",
-      "keywords": [
-        "Design",
-        "UI"
-      ]
-    },
-    {
-      "name": "Gitlab",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "HTML",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
-    }
+    { "name": "TypeScript", "level": "Senior", "keywords": [] },
+    { "name": "JavaScript", "level": "Senior", "keywords": [] },
+    { "name": "React", "level": "Senior", "keywords": [] },
+    { "name": "Node", "level": "Senior", "keywords": [] },
+    { "name": "HTML", "level": "Senior", "keywords": [] },
+    { "name": "CSS", "level": "Senior", "keywords": [] },
+    { "name": "Tailwind", "level": "Senior", "keywords": [] },
+    { "name": "Git", "level": "Senior", "keywords": [] },
+    { "name": "GitHub", "level": "Senior", "keywords": [] }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Russian",
+      "fluency": "Native"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "language": "English",
+      "fluency": "Upper-Intermediate"
     }
   ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": [
-        "AI",
-        "Blockchain"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Smith",
-      "reference": "Reference…"
-    }
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
-      "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Weather App",
+      "name": "TG News Reader",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
-      "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
-      ],
-      "url": "https://weatherapp.com"
+      "description": "Full-stack personal Telegram news reader with media lightbox, download workers, i18n, TOTP auth, and Azure deploy.",
+      "highlights": ["React 19", "Hono", "SQLite/Turso", "Drizzle ORM", "Azure Container Apps", "691 tests"],
+      "url": "https://github.com/bk201-/tg-news-reader",
+      "github": "https://github.com/bk201-/tg-news-reader"
     },
     {
-      "name": "Task Manager",
+      "name": "jira-prepare-commit-msg",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "description": "Git hook that automatically prepends JIRA ticket ID to commit messages.",
+      "highlights": ["Node.js", "Git hooks", "Open source"],
+      "url": "https://github.com/bk201-/jira-prepare-commit-msg",
+      "github": "https://github.com/bk201-/jira-prepare-commit-msg"
     },
     {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
-      "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
-      ],
-      "url": "https://ecommerce.com"
+      "name": "dmitriishilov.com",
+      "isActive": true,
+      "description": "Personal CV site built with Astro (SSG), auto-generated PDF via Playwright, deployed to Azure Static Web Apps.",
+      "highlights": ["Astro", "Tailwind CSS", "Azure Static Web Apps"],
+      "url": "https://dmitriishilov.com"
     }
   ]
 }
