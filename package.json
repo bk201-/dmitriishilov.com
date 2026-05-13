@@ -15,7 +15,7 @@
     "@alpinejs/collapse": "^3.15.11",
     "@astrojs/check": "^0.9.8",
     "alpinejs": "^3.15.11",
-    "astro": "^6.1.7",
+    "astro": "^6.3.2",
     "astro-font-picker": "^0.2.2",
     "hotkeypad": "^1.0.2"
   },
